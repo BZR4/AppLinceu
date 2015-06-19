@@ -12,22 +12,34 @@
 	<dict>
 		<key>23F97177BCA226E5C1F892E62FA503E02CC200DA</key>
 		<string>https://github.com/BZR4/Linceu.git</string>
+		<key>CD5AC754499252CD3E63206EBADBB885A48D6B5A</key>
+		<string>https://github.com/BZR4/AppLinceu.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Linceu.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>23F97177BCA226E5C1F892E62FA503E02CC200DA</key>
+		<string>../../../Linceu</string>
+		<key>CD5AC754499252CD3E63206EBADBB885A48D6B5A</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/BZR4/Linceu.git</string>
+	<string>https://github.com/BZR4/AppLinceu.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23F97177BCA226E5C1F892E62FA503E02CC200DA</string>
+	<string>CD5AC754499252CD3E63206EBADBB885A48D6B5A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CD5AC754499252CD3E63206EBADBB885A48D6B5A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AppLinceu</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

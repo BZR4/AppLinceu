@@ -17,6 +17,7 @@
 		6BFD307A1B32DC8E005B9F08 /* pedalada01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BFD30741B32DC8E005B9F08 /* pedalada01.jpg */; };
 		6BFD307B1B32DC8E005B9F08 /* represa01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6BFD30751B32DC8E005B9F08 /* represa01.JPG */; };
 		6BFD307D1B32DCB6005B9F08 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BFD307C1B32DCB6005B9F08 /* Images.xcassets */; };
+		6BFD30851B345F7A005B9F08 /* brasao.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6BFD30841B345F7A005B9F08 /* brasao.jpg */; };
 		E612FDE51B1E243A00B6D4D7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612FDE41B1E243A00B6D4D7 /* MapViewController.swift */; };
 		E612FDE71B1E337600B6D4D7 /* MyAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612FDE61B1E337600B6D4D7 /* MyAnnotation.swift */; };
 		E612FDE91B1E35B400B6D4D7 /* HotSpotMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E612FDE81B1E35B400B6D4D7 /* HotSpotMapViewController.swift */; };
@@ -68,6 +69,7 @@
 		6BFD30741B32DC8E005B9F08 /* pedalada01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pedalada01.jpg; sourceTree = "<group>"; };
 		6BFD30751B32DC8E005B9F08 /* represa01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = represa01.JPG; sourceTree = "<group>"; };
 		6BFD307C1B32DCB6005B9F08 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6BFD30841B345F7A005B9F08 /* brasao.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = brasao.jpg; sourceTree = "<group>"; };
 		E612FDE41B1E243A00B6D4D7 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E612FDE61B1E337600B6D4D7 /* MyAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyAnnotation.swift; sourceTree = "<group>"; };
 		E612FDE81B1E35B400B6D4D7 /* HotSpotMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotSpotMapViewController.swift; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 		E64335311B1B640A00FB20BF /* images */ = {
 			isa = PBXGroup;
 			children = (
+				6BFD30841B345F7A005B9F08 /* brasao.jpg */,
 				E64335401B1B697200FB20BF /* Groups.png */,
 				E64335411B1B697200FB20BF /* GroupsFilled.png */,
 				E64335421B1B697200FB20BF /* MapMarker.png */,
@@ -305,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BFD307A1B32DC8E005B9F08 /* pedalada01.jpg in Resources */,
+				6BFD30851B345F7A005B9F08 /* brasao.jpg in Resources */,
 				E643354E1B1B697200FB20BF /* News.png in Resources */,
 				E6E9C0FF1B2F69C600D0B750 /* IMG_0264.jpg in Resources */,
 				E643350D1B1B536600FB20BF /* Main.storyboard in Resources */,

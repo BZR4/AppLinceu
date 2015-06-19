@@ -12,7 +12,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var callMe: UIButton!
     
-
+    
+    @IBOutlet weak var tableViewGM: UITableView!
+    
     let dados = ["A Instituição","A missão","Os Departamentos","Fale Conosco",]
     
     override func viewDidLoad() {
@@ -22,21 +24,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         
     }
     
-  
-    @IBAction func callMeFunction(sender: AnyObject) {
-        UIApplication.sharedApplication().openURL(NSURL(string: "tel://9809088798")!)
-    }
-    
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         //teste()
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
+    
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dados.count
@@ -44,7 +47,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = UITableViewCell(style: UITableViewCellStyle.Default, reuseIdentifier: "cell") as UITableViewCell
+        
+        var cell = self.tableViewGM.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
+        
+        
         cell.textLabel?.text = dados[indexPath.row]
         cell.accessoryType = UITableViewCellAccessoryType.DisclosureIndicator
         switch (indexPath.row){
@@ -54,10 +60,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             cell.imageView?.image = UIImage(named: "News")
         case 2:
             cell.imageView?.image = UIImage(named: "Police")
-
+            
         case 3:
             cell.imageView?.image = UIImage(named: "PoliceBadge")
-        
+            
         case 4:
             cell.imageView?.image = UIImage(named: "Groups")
         default:
@@ -71,39 +77,26 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        //teste()
-        println("Oh Yeah!")
-        performSegueWithIdentifier("mostrarDetalhesGM", sender: self)
-        
+        println(self.dados[indexPath.row])
     }
     
-
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//        if segue.identifier == "teste" {
-//            var vc = segue.destinationViewController as! SegurancaCidada
-//        }
-//    }
     
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: self){
-//        if segue.identifier == "mostrarDetalhesGM"
-//        {
-//            let indexPath:NSIndexPath = sender.indexPathForSelectedRow()!
-//            let destination = segue.destinationViewController as! DetalhesGMViewController
-//            destination.elementoRecebido = sender.indexPathForSelectedRow()?.row
-//        }
-//    }
-
-    /*
-    func teste(){
-        let message = UIAlertController(title: "teste", message: "message", preferredStyle: .Alert)
-        
-        let actionOne = UIAlertAction(title: "OK", style: .Default, handler: {
-            (paramAction: UIAlertAction!) in println("Clic!")
-        })
-        
-        message.addAction(actionOne)
-
-    }*/
-
+    //    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    //        if segue.identifier == "teste" {
+    //            var vc = segue.destinationViewController as! SegurancaCidada
+    //        }
+    //    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!){
+        if segue.identifier == "mostrarDetalhesGM"
+        {
+            let indexPath:NSIndexPath = self.tableViewGM.indexPathForSelectedRow()!
+            let destination = segue.destinationViewController as! DetalhesGMViewController
+            destination.elementoRecebido = self.tableViewGM.indexPathForSelectedRow()?.row
+        }
+    }
+    
+    
+    
 }
 
