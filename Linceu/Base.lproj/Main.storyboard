@@ -419,7 +419,10 @@
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oUT-vB-Jtz">
-                                                <rect key="frame" x="8" y="301" width="584" height="268"/>
+                                                <rect key="frame" x="8" y="301" width="584" height="170"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="jAb-Ry-DwS"/>
+                                                </constraints>
                                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -428,6 +431,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="oUT-vB-Jtz" secondAttribute="bottom" constant="20" id="1O5-Mj-OR1"/>
+                                            <constraint firstAttribute="bottom" secondItem="oUT-vB-Jtz" secondAttribute="bottom" constant="118" id="3xp-ok-lhR"/>
                                             <constraint firstAttribute="height" constant="589" id="4nF-Uh-uRb"/>
                                             <constraint firstItem="oUT-vB-Jtz" firstAttribute="top" secondItem="B3v-Sw-qBv" secondAttribute="bottom" constant="8" symbolic="YES" id="7Vo-w6-epD"/>
                                             <constraint firstItem="Oto-6d-diZ" firstAttribute="leading" secondItem="oUT-vB-Jtz" secondAttribute="leading" id="8Pi-dp-M9k"/>
@@ -438,6 +442,11 @@
                                             <constraint firstItem="Oto-6d-diZ" firstAttribute="trailing" secondItem="d0b-Xl-EOC" secondAttribute="trailingMargin" id="oPA-sI-a5t"/>
                                             <constraint firstItem="B3v-Sw-qBv" firstAttribute="top" secondItem="Oto-6d-diZ" secondAttribute="bottom" constant="8" symbolic="YES" id="uGb-xx-TWQ"/>
                                         </constraints>
+                                        <variation key="default">
+                                            <mask key="constraints">
+                                                <exclude reference="1O5-Mj-OR1"/>
+                                            </mask>
+                                        </variation>
                                     </view>
                                 </subviews>
                                 <constraints>
