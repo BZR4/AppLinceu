@@ -1,0 +1,19 @@
+{
+  "noticias": [
+    {
+      "titulo": "Guarapiranga completa 1 mês de quedas; Cantareira fica estável",
+      "imagem": "represa01.JPG",
+      "descricao": " O Sistema Guarapiranga, alçado ao principal da Grande São Paulo com a crise hídrica, completou 30 dias de quedas consecutivas nesta quarta-feira (17),  mostra levantamento do G1 feito com base nos dados divugados pela Companhia de Saneamento Básico do Estado de São Paulo (Sabesp). O índice usado como referêcia foi o nível em relação ao volume útil, que é o utilizado a mais tempo pela companhia. Por este critério, o volume do manancial, que atende 5,8 milhões de clientes, passou de 82,6%, no dia 18 de maio, para 76,5% nesta quarta."
+    },
+    {
+      "titulo": "A pedalada do TCU nas contas do governo",
+      "imagem": "pedalada01.jpg",
+      "descricao": "Pela primeira vez, o governo corre um risco de que suas contas sejam rejeitadas pelo Tribunal de Contas da União (TCU). Os auditores do TCU apontaram distorções da ordem de R$ 260 bilhões nas contas apresentadas no ano passado, ainda sob a gestão do então ministro da Fazenda Guido Mantega. Em vez de um patrimônio positivo de R$ 120 bilhões, como apresentado ao TCU, o governo teria um saldo negativo de R$ 140 bilhões. Os conselheiros do TCU se reúnem hoje para avaliar a questão e decidir o que fazer com as contas: aprovar, rejeitar ou, o mais provável, adiar a decisão."
+    },
+    {
+      "titulo": "Brasileiros revelam motivação por frase de técnico rival: Deu mole",
+      "imagem": "brasil01.jpg",
+      "descricao": "Os jogadores do Brasil mal haviam saído do treino na véspera do jogo contra o Senegal quando leram a notícia. O treinador do time africano, Joseph Koto, não temia a seleção: achava que a equipe canarinho não era a mesma dos tempos de Pelé, Ronaldinho ou Zico. O tom não foi provocativo, mas foi o suficiente para desagradar os atletas, que, entre eles, desaprovaram a situação. O resultado em campo simboliza isso: vitória brasileira por 5 a 0 e vaga na decisão do Mundial Sub-20. A gente ficou sabendo quando liguei no celular e vi a notícia no Facebook. Achei desnecessário. Mas ele tem razão. Aqui na nossa equipe não tem mais Ronaldinho, Pelé e Zico. Acho que ele deu mole de falar isso, jogou a bola para eles. Eles entraram como favoritos, não respeitaram a gente. Esse grupo aqui é um elenco muito forte, com cada um correndo pelo outro – disse Gabriel Jesus. "
+    }
+  ]
+}

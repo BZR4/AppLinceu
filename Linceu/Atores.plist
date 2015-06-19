@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>atores</key>
+	<array>
+		<array>
+			<string>Guarda Municipal de Araras</string>
+			<string>GMA</string>
+			<string>Prevenção e Combate à violencia e aos crimes.</string>
+			<string>Servir e proteger o cidadão Ararense, sempre.</string>
+			<string>Rua dos Corodados, 100 - Jardim Campinho</string>
+			<string>guardamunicipal@araras.sp.gov.br</string>
+			<string>-22.329229394643562</string>
+			<string>-47.39812284775807</string>
+			<string>35411532</string>
+		</array>
+		<array>
+			<string>Guarda Municipal de Limeira</string>
+			<string>GMA</string>
+			<string>Prevenção e Combate à violencia e aos crimes.</string>
+			<string>Servir e proteger o cidadão Limeirense, sempre.</string>
+			<string>Rua dos Corodados, 100 - Jardim Campinho</string>
+			<string>guardamunicipal@araras.sp.gov.br</string>
+			<string>-22.34973839557</string>
+			<string>-47.38759543044</string>
+			<string>35411532</string>
+		</array>
+		<array>
+			<string>Guarda Municipal de Campinas</string>
+			<string>GMA</string>
+			<string>Prevenção e Combate à violencia e aos crimes.</string>
+			<string>Servir e proteger o cidadão Campineiro, sempre.</string>
+			<string>Rua dos Corodados, 100 - Jardim Campinho</string>
+			<string>guardamunicipal@araras.sp.gov.br</string>
+			<string>-22.34973839557</string>
+			<string>-47.37788920672</string>
+			<string>35411532</string>
+		</array>
+		<array>
+			<string>Guarda Municipal de Valinhos</string>
+			<string>GMA</string>
+			<string>Prevenção e Combate à violencia e aos crimes.</string>
+			<string>Servir e proteger o cidadão Valinhense, sempre.</string>
+			<string>Rua dos Corodados, 100 - Jardim Campinho</string>
+			<string>guardamunicipal@araras.sp.gov.br</string>
+			<string>-22.34440013742</string>
+			<string>-47.38759543044</string>
+			<string>35411532</string>
+		</array>
+	</array>
+</dict>
+</plist>
